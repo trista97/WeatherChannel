@@ -4,19 +4,18 @@
 LIS 2360:  Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+April, 21, 2017 
 
 ### Student Name:  
-(First and Last Name)
+Trista Reeves
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+A project using an API and json to achieve a weather calculator.
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+https://trista97.github.io/WeatherChannel/
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. How to use the network pane on Google Analytics.
+2. How to use json and APIs.
+3. How to create a weather application and modify the code to make it your own.

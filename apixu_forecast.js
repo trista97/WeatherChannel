@@ -86,7 +86,7 @@
                 var message = 'q=' + $('#searchValue').val()+'&days=10';   
                 $.ajax({
                       type: 'GET',
-                      url: 'https://api.apixu.com/v1/current.json?key=fdf08cb3ccfb45079c9204623172104&q=Paris',
+                      url: 'https://api.apixu.com/v1/current.json?key=fdf08cb3ccfb45079c9204623172104',
                       data: message             
                 })
                 .done(function(json){
@@ -97,7 +97,9 @@
                      $('#Day1Low').html("<center>" + json.forecast.forecastday[0].day.mintemp_f + "</center>");
                      $('#Day1High').html("<center>" + json.forecast.forecastday[0].day.maxtemp_f + "</center>");
                      $('#Day2Low').html("<center>" + json.forecast.forecastday[1].day.mintemp_f + "</center>");
-                     $('#Day2High').html("<center>" + json.forecast.forecastday[1].day.maxtemp_f + "</center>");        
+                     $('#Day2High').html("<center>" + json.forecast.forecastday[1].day.maxtemp_f + "</center>");     
+                     $('#Day4Low').html("<center>" + json.forecast.forecastday[3].day.mintemp_f + "</center>");
+                     $('#Day4High').html("<center>" + json.forecast.forecastday[3].day.maxtemp_f + "</center>"); 
 
                      
                 })
